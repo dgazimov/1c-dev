@@ -15,6 +15,10 @@ font-weight: 600;
 .border-yellow {
     border-left: 3px #f0bc5e solid;
 }
+
+input ['text'] {background: red;}
+input ['submit'] {background: yellow;}
+
 ul {
     list-style: none;
     padding: 0px;
@@ -24,6 +28,14 @@ li {
     background-repeat: no-repeat;
     background-size: 24px;
     padding-left: 50px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+img {
+    transition: 1s;
 }
 .bg-fon1 {
     background: url(img/fon.jpg);
